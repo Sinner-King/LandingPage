@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "Introduce";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/vendor/menu/style.css" rel="stylesheet">
+<div class="">
+
+    <div class="Col2-l">
+        <nav id="gtco-header-navbar"  style="margin-top:40px" class="navbar navbar-expand-lg py-4">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="/">
+                    <span class="lnr lnr-moon"></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="lnr lnr-menu"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-nav-header">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <div class="align-items-center justify-content-center">
+                                <div id="nav-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <div class="fplus-menu-area">
+            <!-- Menu -->
+            <div class="fplus-main-menu h-100 d-flex align-items-center">
+
+            </div>
+            <!-- Header Social Icon -->
+            <div class="header-social-info d-flex align-items-center justify-content-end">
+                <nav class="navbar navbar-expand-lg" style="text-align: right;">
+                    <div class="" id="fplus-nav">
+                        <ul class="navbar-nav" id="fplusNav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="@Url.Action("Index", "Home")">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="fplusDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Introduce</a>
+                                <div class="dropdown-menu" aria-labelledby="fplusDropdown">
+                                    <a class="dropdown-item" href="@Url.Action("Introduce", "Home")">Introduce</a>
+                                    <a class="dropdown-item" href="@Url.Action("Introduce2", "Home")">Learing Program</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#clients">Our Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#news">Recent News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="txt-intro">
+            We use hotels as a
+            training ground for
+            Skoolars. They will
+            have in-depth training
+            and coaching on a
+            daily basis with
+            real guests & colleagues.
+            <br />
+            <div class="explore" style="float:right;padding-top:12px; font-family:Agency FB; letter-spacing: 3px">Become a Skoolar</div>
+        </div>
+    </div>
+
+    <div class="Col1-l" style="background-image: url(./../img/Introduce.jpg); ">
+
+    </div>
+
+</div>
+<script src="~/vendor/menu/js/jquery/jquery-2.2.4.min.js"></script>
+<!-- Active JS -->
+<script src="~/vendor/menu/js/active.js"></script>
